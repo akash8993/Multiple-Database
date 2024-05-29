@@ -29,4 +29,14 @@ http://localhost:8080/api/v1/mongo
     "price":1000.00
     }
 
+For Address Mysql Table
+
+http://localhost:8080/api/v1/mysql/address
+
+    {
+    "street":"ABC",
+    "district":"EFG",
+    "state":"XYZ"
+    }
+
 Here we had made configurations so springboot automatically choose the database to store as per the repository used.
